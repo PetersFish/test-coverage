@@ -26,7 +26,7 @@
                     <includes>
                         <include>**/*Test.java</include>
                     </includes>
-                    <argLine>${argLine} -Dfile.encoding=UTF-8 -Xmx256m</argLine>
+                    <argLine> -Dfile.encoding=UTF-8 -Xmx256m</argLine>
                 </configuration>
             </plugin>
             <!--<plugin>
