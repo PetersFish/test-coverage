@@ -26,10 +26,10 @@
                     <includes>
                         <include>**/*Test.java</include>
                     </includes>
-                    <argLine> -Dfile.encoding=UTF-8 -Xmx256m</argLine>
+                    <argLine>${argLine} -Dfile.encoding=UTF-8 -Xmx256m</argLine>
                 </configuration>
             </plugin>
-            <!--<plugin>
+            <plugin>
                 <groupId>org.jacoco</groupId>
                 <artifactId>jacoco-maven-plugin</artifactId>
                 <version>0.7.8</version>
@@ -55,7 +55,7 @@
                         </goals>
                     </execution>
                 </executions>
-            </plugin>-->
+            </plugin>
         </plugins>
     </build>
 
