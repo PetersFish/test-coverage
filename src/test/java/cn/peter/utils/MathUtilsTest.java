@@ -10,7 +10,7 @@ public class MathUtilsTest {
 
     @Test
     public void add() {
-        int add = MathUtils.add(1, 2);
+        int add = MathUtils.SubMath.add(1, 2);
         Assert.assertTrue(add == 3);
     }
 

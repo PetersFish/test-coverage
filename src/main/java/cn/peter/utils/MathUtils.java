@@ -8,14 +8,18 @@ public class MathUtils {
     private MathUtils() {
     }
 
-    public static int add(int a, int b){
-        if (a < 0 || b < 0){
-            return 0;
-        }
-        return a + b;
-    }
+    public static class SubMath{
 
-    public static int minus(int a, int b){
-        return a - b;
+        public static int add(int a, int b){
+            if (a < 0 || b < 0){
+                return 0;
+            }
+            return a + b;
+        }
+
+        public static int minus(int a, int b){
+            return a - b;
+        }
+
     }
 }
